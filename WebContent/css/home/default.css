@@ -1,0 +1,121 @@
+.content{
+	height: 276px;
+}
+
+.content .title{
+    margin-top: 78px;
+    padding: 10px 0;
+    background: url("../../img/home/fundo.png");
+}
+.title .section{
+	display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+.section h2{
+    background-image: url("../../img/home/h2-lema.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: block;
+    font-family: ChampagneLimousinesRegular;
+    font-size: 16px;
+    font-weight: bold;
+    height: 82px;
+    text-indent: -9000px;
+    width: 235px;	
+}
+
+.section .group{
+    background-image: url("../../img/home/group.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 360px;
+    position: absolute;
+    right: 0;
+    text-indent: -9000px;
+    top: -167px;
+    width: 696px;
+}
+
+.items{
+	background: url("../../img/home/fundo.png");
+    background-color: #035183;
+    height: 179px;
+    margin-top: 5px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.items .section{
+	display: block;
+    margin: 0 auto;
+    width: 985px;	
+}
+
+.section .releases,
+.section .processes,
+.section .events{
+    background-color: #FFF;
+    float: left;
+    height: 179px;
+    margin-right: 10px;
+    width: 238px;
+}
+
+.section .calendar {
+	float: left;
+	margin-right: 10px;
+	width: 210px;
+}
+
+.section .events .header,
+.section .releases .header,
+.section .processes .header{
+	width: 227px;
+	height: 46px;
+	margin: 7px;
+}
+
+.section .events .header {
+	background: url("../../img/home/eventos.png") 0 0 no-repeat;
+}
+
+.section .releases .header {
+	background: url("../../img/home/lancamentos.png") 0 0 no-repeat;
+}
+
+.section .processes .header {
+	background: url("../../img/home/processos.png") 0 0 no-repeat;
+}
+
+.feed {
+	list-style: none;
+}
+
+.feed-item {
+	margin: 10px;
+	font-size: 13px;
+}
+
+.details-box {
+	float: right;
+}
+
+.details {
+	background-color: #035183;
+	color: white;
+	padding: 1px 5px;
+	bottom: 6px;
+	position: relative;
+	right: 6px;
+}
+
+.details:hover {
+	color: #FFF!important;
+}
+
+.events.last{
+	margin-right:0
+}

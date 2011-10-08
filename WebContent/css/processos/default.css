@@ -1,0 +1,19 @@
+/*.content{
+	height: 276px;
+}
+
+.content .title{
+    margin-top: 78px;
+    padding: 10px 0;
+}
+
+.title .section{
+	display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}*/
+
+.releses table.processos tbody td {
+    width: 11%;
+}

@@ -1,0 +1,39 @@
+.report{
+    float: right;
+    margin-bottom: 10px;
+    width: 678px;
+}
+
+.report table{
+    border: 1px solid #D0D0D0;
+    margin-top: 5px;
+    padding: 2px;
+    width: 100%;
+}
+
+.report table thead th{
+    border-bottom: 1px solid #D0D0D0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.report table tbody td{
+    border-bottom: 1px solid #D0D0D0;
+    text-align: center;
+}
+
+.content{
+	height: 276px;
+}
+
+.content .title{
+    margin-top: 78px;
+    padding: 10px 0;
+}
+
+.title .section{
+	display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}

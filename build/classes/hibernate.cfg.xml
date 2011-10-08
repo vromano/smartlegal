@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@192.168.1.105:1521:xe</property>
+        <property name="hibernate.connection.username">w2gdb</property>
+        <property name="connection.password">w2gdb</property>
+        <property name="connection.pool_size">1</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">true</property>
+        <mapping class="br.com.w2gdb.domain.User" />
+        <mapping class="br.com.w2gdb.domain.Despesa" />
+        <mapping class="br.com.w2gdb.domain.Processo" />
+        <mapping class="br.com.w2gdb.domain.Causa" />
+        <mapping class="br.com.w2gdb.domain.Cobranca" />
+        <mapping class="br.com.w2gdb.domain.Pessoa" />
+        <mapping class="br.com.w2gdb.domain.Cliente" />
+        <mapping class="br.com.w2gdb.domain.Advogado" />
+
+	</session-factory>
+</hibernate-configuration>

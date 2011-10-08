@@ -1,0 +1,438 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+body{
+	font-family:verdana;
+	font-size:11px;
+	color:#909090;
+}
+
+a{
+	text-decoration:none;
+	color:#797979;
+	outline:none;
+}
+
+fieldset{
+	border:0
+}
+
+a:hover{
+	text-decoration:none;
+	color:#797979;
+	outline:none;
+}
+
+@font-face {
+    font-family: 'ChampagneLimousinesRegular';
+    src: url('../../fonts/champagne__limousines-webfont.eot');
+    src: url('../../fonts/champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/champagne__limousines-webfont.woff') format('woff'),
+         url('../../fonts/champagne__limousines-webfont.ttf') format('truetype'),
+         url('../../fonts/champagne__limousines-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title, .footer {
+    background: url("../../img/home/fundo.png");
+}
+
+.full-header{
+    background-color: #E3E3E3;
+    height: 83px;
+    margin-top: 26px;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.full-header .content-header{
+	display:block;
+	margin:0 auto;
+	width:960px;
+}
+
+.content-header h1 a{
+    background-image: url("../../img/shared/smart-legal.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 83px;
+    text-indent: -9000px;
+    width: 301px;
+}
+
+.content-header ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.content-header ul li{
+    background-image: url("../../img/shared/separador.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    float: left;
+    font-family: ChampagneLimousinesRegular;
+    font-size: 16px;
+    font-weight: bold;
+    height: 27px;
+    padding: 9px 11px 0;
+    position:relative
+}
+
+
+.content-header ul li ul {
+    background-color: #E3E3E3;
+    display: none;
+    position: absolute;
+    right: 1px;
+    top: 6px;
+    width: 696px;
+    z-index: 9999;
+}
+
+.content-header ul li{
+    background-image: url("../../img/shared/separador.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    float: left;
+    font-family: ChampagneLimousinesRegular;
+    font-size: 16px;
+    font-weight: bold;
+    height: 27px;
+    padding: 9px 11px 0;
+}
+
+.content-header ul li ul li {
+    background-image: url("../../img/shared/line-sub.jpg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
+.content-header ul li.last,
+.content-header ul li ul li.last{
+    background-image: none;
+}
+
+.content-header ul li a:hover,
+.content-header ul li .active{
+   	border-bottom: 2px solid #04598F;
+   	color:#04598F;
+    padding-bottom: 7px;
+}
+
+.content{
+    background-color: #E3E3E3;
+    display: inline-block;
+    padding: 4px 0;
+    width: 100%;	
+}
+
+.title{
+	background-color: #045588;
+    width: 100%;	
+}
+
+.footer{
+    background-color: #02436C;
+    height: 44px;
+    padding: 10px 0 15px;
+    width: 100%;	
+}
+
+.footer .section{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;		
+}
+
+
+.footer .section p{
+    color: #458CB8;
+    float: left;
+    width: auto;
+}
+
+.footer .section a{
+    background-image: url("../../img/shared/w2gdb.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: right;
+    height: 44px;
+    text-indent: -9000px;
+    width: 60px;
+}
+
+.section .group-internal{
+    background-image: url("../../img/shared/group-internas.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 173px;
+    position: absolute;
+    right: 0;
+    text-indent: -9000px;
+    top: -81px;
+    width: 488px
+}
+
+.title.internal {
+    height: 92px;
+    margin-top: 64px;
+}
+
+.section h3 {
+    font-family: ChampagneLimousinesRegular;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title h3 {
+	color: white;
+	float: right;
+	margin-right: 500px;
+	margin-top: 25px;
+	font-size: 32px;
+	border: none;	
+}
+
+.content.internal {
+    height: auto;
+}
+
+.section{
+	display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+h4{
+    color: #045487;
+    float: left;
+    font-family: ChampagneLimousinesRegular;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cadastre {
+    float: right;
+    margin-bottom: 10px;
+    width: 678px;
+}
+
+.cadastre form{
+    clear: left;
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.sidebar{
+    float: left;
+    width: 212px;
+}
+
+.sidebar #calendar{
+    height: 179px;
+    margin-bottom: 10px;
+    width: 212px;
+}
+
+.sidebar #news{
+	width:205px;
+	height:179px;
+	background: #FFF;
+	padding: 2px;
+}
+
+.sidebar #news .header {
+	width: 227px;
+	height: 46px;
+	margin: 7px;
+	background: url("../../img/shared/novidades.png") 0 0 no-repeat;
+}
+
+.feed {
+	list-style: none;
+}
+
+.feed-item {
+	margin: 10px;
+	font-size: 13px;
+}
+
+.details-box {
+	float: right;
+}
+
+.details {
+	background-color: #035183;
+	color: white;
+	padding: 1px 5px;
+	bottom: 6px;
+	position: relative;
+	right: 6px;
+}
+
+.cadastre fieldset label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 301px;
+}
+
+.cadastre fieldset label input,
+.cadastre fieldset label select,
+.cadastre fieldset label textarea{
+    border: 1px solid #D0D0D0;
+    display: block;
+    margin-top: 3px;
+    text-align: left !important;
+    width: 300px;
+}
+
+.cadastre fieldset label textarea{
+	height:150px
+}
+
+#btnSalvar,
+#btnBuscar{
+    background-color: #04598F;
+    color: #FFFFFF;
+    cursor:pointer;
+    float: left;
+    margin-left: 232px;
+    padding: 4px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+#btnBuscar{
+	margin-left:0;
+	padding:0
+}
+
+#btnSalvar:hover{
+	background-color: #026cb0;	
+}
+
+.error{
+    background-color: #FEFCD4;
+    border: 1px solid #FF0000 !important;
+}
+
+.releses{
+	width:100%;
+	display:block;
+}
+
+.releses table {
+    clear: both;
+    padding: 10px;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.releses table thead th {
+    background-color: #045588;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.releses table tbody td {
+    text-align: center;
+    width: 15%;
+    height: 40px;
+    border-bottom: solid 1px #EEE;
+}
+
+.releses table tr:hover {
+    background-color: #EEE;
+    color: #045588;
+}
+
+.deletar{
+    background-image: url("../../img/shared/delete.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 16px;
+    text-indent: -9000px;
+    width: 16px;	
+}
+
+.editar{
+    background-image: url("../../img/shared/edit.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: right;
+    height: 16px;
+    text-indent: -9000px;
+    width: 16px;	
+}
+
+.cadastrar{
+    background-image: url("../../img/shared/save.png");
+    background-position: 72px 3px;
+    background-repeat: no-repeat;
+    border: 1px solid #D0D0D0;
+    color: #555555;
+    float: right;
+    font-weight: bold;
+    height: 16px;
+    margin-top: 8px;
+    padding: 3px;
+    width: 86px;
+}
+
+
+.releses form{
+	margin-bottom:10px;
+}
+
+.releses label{
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 201px;
+}
+
+.releses label input{
+ 	border: 1px solid #D0D0D0;
+    margin-top: 3px;
+    width: 120px;
+}
+
+input[type=button], input[type=submit] {
+	padding: 4px;
+	border: solid 1px #2F81B5;
+	background-color: #045487;
+	font-size: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+}
+
+input[type=checkbox] {
+	margin: 5px;
+}
+
+.export-pdf {
+	padding: 4px;
+	border: solid 1px #2F81B5;
+	background-color: #045487;
+	font-size: 10px;
+	cursor: pointer;
+	float: right;
+	color: white;
+	font-weight: bolder;
+}

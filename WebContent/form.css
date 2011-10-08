@@ -1,0 +1,140 @@
+@CHARSET "ISO-8859-1";
+
+
+label
+{
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 10pt;
+	text-align: right;
+	width: 180px;
+	margin: 5px 10px 0px 0px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+fieldset legend 
+{
+    font-family: Arial, Verdana, Univers, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #666666;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 2px 5px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    top: -10px;
+    font-size: 1.1em;
+
+}
+
+fieldset {
+    background-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    margin: 0px 0px 0px 0px;
+    width: 96%;
+    position: relative;
+    display: block;
+    padding: 0px 10px 10px 10px;
+}
+
+input.large, select.large, textarea.textarea {
+    width:100%;
+}
+
+input.medium, select.medium {
+    width:50%;
+}
+
+input.small, select.small {
+    width: 25%;
+}
+
+input.date, input.datepicker{
+    width: 110px;
+}
+
+input.text, input.file, textarea.text {
+    padding: 2px 2px 2px 4px;
+    vertical-align:bottom;
+}
+
+input.date, input.datepicker,input.currency,input.text, input.file, .firefox select{
+    background:#FFFFFF url(../images/fieldbg.gif) repeat-x scroll center top;
+    border-color:#7C7C7C #C3C3C3 #DDDDDD;
+    border-style:solid;
+    border-width: 1px;
+    padding: 2px 2px 2px 4px;
+    height: 21px;
+    font-size:16px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+input.text {
+    padding: 2px 2px 2px 4px;
+    vertical-align:bottom;
+    background:#FFFFFF url(../images/fieldbg.gif) repeat-x scroll center top;
+    border-color:#7C7C7C #C3C3C3 #DDDDDD;
+    border-style:solid;
+    border-width: 1px;
+    padding: 2px 2px 2px 4px;
+    height: 21px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+textarea.text{
+    background:#FFFFFF url(../images/fieldbg.gif) repeat-x scroll center top;
+    border-color:#7C7C7C #C3C3C3 #DDDDDD;
+    border-style:solid;
+    border-width: 1px;
+    padding: 2px 2px 2px 4px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+h2 {
+	border-bottom: 1px solid #ccc;
+	color: #069;
+	clear: both;
+	font-family: tahoma, arial, verdana;
+	font-weight: bold;
+	line-height: 1.4em;
+	padding-left: 6px;
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
+  color: #069;
+  clear: both;
+  font-family: tahoma, arial, verdana;
+  font-weight: bold;
+  line-height: 1.4em;
+  padding-left: 6px;
+}
+
+h4 {
+  border-bottom: 1px solid #ccc;
+  color: #069;
+  clear: both;
+  font-family: tahoma, arial, verdana;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin-top: 16px;
+  padding-left: 6px;
+}
+
+.section p {
+	margin: 10px;
+}
+
+input, select, textarea {
+	padding: 4px;
+	color: #666;
+	font-family: Verdana;
+	resize: none;
+}

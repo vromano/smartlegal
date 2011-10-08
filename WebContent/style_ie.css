@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/* WebAppSkins.com */
+
+/* main */
+a.blackbutton span { margin:0; padding:0;}
+a.blackbutton span span { margin:0; padding:0;}
+a.blackbutton span span span { margin:0 16px; padding:6px 0;}
+
+/* header */
+.header ul.menu ul { margin:30px 0 0 0; padding:4px; width:140px; list-style:none; display:none; position:absolute; }
+
+/* content */
+.gadget { margin-bottom:12px;}
+.header a.jsi_wbtn { line-height:25px;}
+.header a.jsi_wbtn span { margin:0; padding:0;}
+.header a.jsi_wbtn span span { margin:0; padding:0;}
+.header a.jsi_wbtn span span span { margin:0 12px; padding:6px 0 10px 0;}
+.header a.jsi_wbtn img { display:none;}
+
+.header ul.menu li a { margin:0; padding:0;}
+.header ul.menu li a span { margin:0; padding:0;}
+.header ul.menu li a span span { margin:0; padding:0;}
+.header ul.menu li a span span span { margin:0 19px; padding:7px 0;}
+
+/* contact */
+form input.ie_text { margin:-4px 0; width:140px; height:15px;}
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+#datepicker .ui-datepicker-cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}

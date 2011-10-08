@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+/* WebAppSkins.com */
+
+.header .right .dark { -moz-border-radius:4px;}
+.header .right .light { -moz-border-radius:4px;}
+.gadget .titlebar { -moz-border-radius:4px;}
+.gadget .titlebar h3 { -moz-border-radius:3px;}
+.gadget .titlebar a { -moz-border-radius:2px;}
+.gadget .error_tit { -moz-border-radius:4px;}
+.gadget .error_msg { -moz-border-radius:4px;}
+.gadget .gadgetblock { -moz-border-radius:4px;}
+.gadget .pixshadow { -moz-border-radius:2px;}
+.gadget .pixshadow img { -moz-border-radius:2px;}
+.gadget .blockshadow { -moz-border-radius:2px;}
+.gadget .blockshadow div.bs_content { -moz-border-radius:2px;}
+#dialogboxes .window { -moz-border-radius:6px;}
